@@ -1,6 +1,6 @@
 # 🎬 CineMatch - AI-Powered Movie Recommendation System
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](YOUR_DEPLOYED_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://cinematch-3olx.onrender.com)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/flask-3.0-lightgrey.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 ## 🌟 Live Demo
 
-**Try it now:** [YOUR_DEPLOYED_URL_HERE](#)
+**Try it now:** [https://cinematch-3olx.onrender.com](https://cinematch-3olx.onrender.com)
 
 ## ✨ Features
 
@@ -46,7 +46,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/cinematch.git
+git clone https://github.com/shreyas-nagammanavar/cinematch.git
 cd cinematch
 ```
 
@@ -208,10 +208,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
+**Shreyas Nagammanavar**
+- GitHub: [@shreyas-nagammanavar](https://github.com/shreyas-nagammanavar)
+- LinkedIn: [Connect with me](https://linkedin.com/in/shreyas-nagammanavar)
+- Live Demo: [CineMatch](https://cinematch-3olx.onrender.com)
 
 ## 🙏 Acknowledgments
 
