@@ -1,4 +1,4 @@
-# 🎬 CineMatch - AI-Powered Movie Recommendation System
+# 🎬 CineMatch -  Movie Recommendation System
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://cinematch-3olx.onrender.com)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
