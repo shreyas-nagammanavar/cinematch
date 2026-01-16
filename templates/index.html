@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch - Movie Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🎬 CineMatch</div>
+            <div class="nav-controls">
+                <input type="number" id="userId" placeholder="User ID (1-1000)" min="1" max="1000" class="user-input">
+                <button id="loadUserBtn" class="load-user-btn">Load</button>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Discover Your Next Favorite Movie</h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search movies...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </section>
+
+        <section class="filters">
+            <button class="filter-btn active" data-genre="all">All</button>
+            <button class="filter-btn" data-genre="Action">Action</button>
+            <button class="filter-btn" data-genre="Romance">Romance</button>
+            <button class="filter-btn" data-genre="Comedy">Comedy</button>
+            <button class="filter-btn" data-genre="Thriller">Thriller</button>
+            <button class="filter-btn" data-genre="Horror">Horror</button>
+            <button class="filter-btn" data-genre="Drama">Drama</button>
+            <button class="filter-btn" data-genre="Sci-Fi">Sci-Fi</button>
+        </section>
+
+        <section class="tabs">
+            <button class="tab-btn active" data-tab="trending">🔥 Trending</button>
+            <button class="tab-btn" data-tab="popular">⭐ Popular</button>
+            <button class="tab-btn" data-tab="foryou">💝 For You</button>
+            <button class="tab-btn" data-tab="browse">🎯 Browse</button>
+        </section>
+
+        <div id="moviesContainer" class="movies-grid"></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
